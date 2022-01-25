@@ -1,13 +1,13 @@
-package model.service;
+package model.services;
 
 
 public interface OnlinePaymentService {
-	
+	/*
 	public ContractService contractService = new ContractService();
 	public PaypalService paypalServices = new PaypalService();
+	*/
 	
+	public double paymentFee(double amount);
 	
-	public Double paymentFee(Double amount);
-	
-	public Double interest(Double amount, Integer months);
+	public double interest(double amount, int months);
 }
